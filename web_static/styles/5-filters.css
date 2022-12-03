@@ -1,0 +1,53 @@
+.filters {
+    background: #FFF;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.botton {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color:  #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: 0;
+    float: right;
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    order: 2;
+}
+
+.botton:hover {
+    opacity: 90%;
+}
+
+.locations {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    order: 0;
+    margin-left: 40px;
+}
+.amenities {
+    height: 100%;
+    width: 25%;
+    order: 1;
+    margin-left: 40px;
+}
+.amenities h3,
+.locations h3 {
+    font-weight: 600;
+    margin: 12px 0;
+}
+.amenities h4,
+.locations h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: o auto;
+}
